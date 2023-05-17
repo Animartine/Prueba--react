@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(251, 244, 244);
+    font-family: ´open sans-serif;
+    
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: greenyellow;
+  text-align: center;
+  padding: 25px 0;
+
+}
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  color: #696969;
+  margin: 0 30px;
+  padding: 5px 15px;
+  border-radius: 30px;
+
+}
+nav a:hover{
+  background-color: #000;
+  color: #fff;
+}
+.Encabezado-img{
+  background-image: url(img/Artista.jpg);
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+
+}
+.contenido {
+  margin: 3px;
+}
+.caja{
+  display:table-cell ;
+  padding: 10px;
+  
+
+}
+
+.caja:nth-child(1) h2{
+  background: rgb(151, 3, 3);
+  text-align: center;
+  color: white;
+  margin-bottom: 15px;
+
+}
+.caja:nth-child(2) h2{
+  background: black;
+  text-align: center;
+  color: white;
+  margin-bottom: 15px;
+  
+
+}
+.caja:nth-child(3) h2{
+  background: blue;
+  text-align: center;
+  color: white;
+  margin-bottom: 15px;
+}
+.caja:nth-child(1) p{
+  background:lightblue;
+  color: black;
+}
+.caja:nth-child(2) p{
+  background: orangered;
+  color: white;
+}
+.caja:nth-child(3) p{
+  background-color: red;
+  color: white;
+}
+@media(min-width:800px){
+.caja p{
+  line-height: 30px;
+}
+}
